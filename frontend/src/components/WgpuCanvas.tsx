@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from 'react'
 
 // Import the WASM module from the wgpu_engine
 // This imports the compiled WebAssembly module and the WgpuRenderer class
-import init, { WgpuRenderer } from '../../../wgpu_engine/pkg/wgpu_engine.js'
+import init, { WgpuRenderer } from '../../../wgpu_engine/pkg/renderrust_engine.js'
 
 /**
  * Props interface for the WgpuCanvas component
